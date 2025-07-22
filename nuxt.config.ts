@@ -6,6 +6,11 @@ export default defineNuxtConfig({
   content: {
     preview: {
       api: "https://api.nuxt.studio",
+      gitInfo: {
+        name: "geel-content",
+        owner: "AllanBosire",
+        url: "https://github.com/AllanBosire/geel-content",
+      },
     },
   },
 });
