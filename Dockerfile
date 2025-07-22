@@ -2,7 +2,7 @@ FROM node:22-alpine
 
 WORKDIR /
 
-COPY package.json pnpm-lock.yaml ./
+COPY package.json pnpm-*.yaml ./
 RUN corepack enable
 
 RUN pnpm install
