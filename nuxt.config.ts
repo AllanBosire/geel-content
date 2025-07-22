@@ -11,7 +11,6 @@ export default defineNuxtConfig({
         owner: "AllanBosire",
         url: "https://github.com/AllanBosire/geel-content",
       },
-      dev: true,
     },
   },
 });
