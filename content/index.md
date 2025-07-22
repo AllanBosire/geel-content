@@ -10,10 +10,3 @@ navigation:
 # Home
 
 This is a test
-
-::prose-a
-What is this?
-
-  :::prose-ul
-  :::
-::
