@@ -2,10 +2,7 @@
 const route = useRoute();
 const slug = route.params["slug"] || "/";
 const { data: home } = await useAsyncData<Content>(() => queryCollection("content").path(slug).first());
-useSeoMeta({
-  title: home.value?.title,
-  description: home.value?.description,
-});
+useSeoMeta(home.value || {});
 </script>
 
 <template>
